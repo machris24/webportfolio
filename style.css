@@ -3,18 +3,10 @@
 /* -- Main -- */
 
 body {
-	background-color: #ded7d5;
+	background-image: url(images/bg.jpg);
+	background-size: cover;
 	font-family: "Open Sans", sans-serif;
-}
-
-a {
-  color: #0563bb;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #067ded;
-  text-decoration: none;
+	text-decoration-color: black
 }
 
 h1,
@@ -31,7 +23,7 @@ h6 {
 	background: rgba(251, 251, 251, 0.13);
 	border-radius: 16px;
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-	backdrop-filter: blur(2.4px);
+	backdrop-filter: blur(10px);
 	-webkit-backdrop-filter: blur(2.4px);
 	border: 1px solid rgba(251, 251, 251, 0.39);
 }
@@ -60,14 +52,14 @@ h6 {
 
 #me h1 {
   margin: 0;
-  font-size: 32px;
+  font-size: 5vw;
   font-weight: 700;
   line-height: 36px;
-  color: #45505b;
+ 
 }
 
 #me p {
-  color: #45505b;
+ 
   margin: 15px 0 0 0;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
@@ -85,6 +77,7 @@ h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+
 }
 
 .section-title {
@@ -99,7 +92,6 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #45505b;
 }
 
 
@@ -111,7 +103,6 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #728394;
 }
 
 .about .content ul {
@@ -140,14 +131,37 @@ section {
   margin-bottom: 0;
 }
 
+.about, .tools {
+	background: rgba(251, 251, 251, 0.13);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(2.4px);
+	border: 1px solid rgba(251, 251, 251, 0.39);
+	margin-right: 1rem;
+}
+
+.projects {
+	background: rgba(251, 251, 251, 0.13);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(2.4px);
+	border: 1px solid rgba(251, 251, 251, 0.39);
+}
+
 
 /* Footer */
 #footer {
-  background: #ac786e;
-  color: #f7f8f9;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
+  background: rgba(251, 251, 251, 0.13);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(2.4px);
+  border: 1px solid rgba(251, 251, 251, 0.39);
 }
 
 #footer .credits {
